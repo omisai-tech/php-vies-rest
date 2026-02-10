@@ -1,0 +1,5 @@
+/vendor
+composer.lock
+.vscode/
+test_viesclient.php
+swagger_publicVAT.yaml
