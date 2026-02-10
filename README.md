@@ -290,4 +290,3 @@ Your support helps us maintain and improve this open-source project!
 
 - [European Commission VIES Website](https://ec.europa.eu/taxation_customs/vies)
 - [VIES REST API Documentation](https://ec.europa.eu/assets/taxud/vow-information/swagger_publicVAT.yaml)
-- [VIES Test Service](https://ec.europa.eu/taxation_customs/vies/checkVatTestService.wsdl)
