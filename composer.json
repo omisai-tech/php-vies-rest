@@ -45,7 +45,6 @@
     },
     "scripts": {
         "test": "./vendor/bin/pest --colors=always",
-        "compile": "php compiler.php",
         "pint": "./vendor/laravel/pint/builds/pint"
     },
     "minimum-stability": "dev",
