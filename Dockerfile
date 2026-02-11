@@ -3,7 +3,7 @@ FROM php:8.5-rc-cli
 
 # Install system dependencies
 RUN apt-get update \
-    && apt-get install -y git unzip zip libxml2-dev libcurl4-openssl-dev \
+    && apt-get install -y git unzip zip libxml2-dev libcurl4-openssl-dev libonig-dev \
     && docker-php-ext-install curl mbstring
 
 # Install Composer
