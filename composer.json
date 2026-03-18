@@ -44,8 +44,13 @@
         "guzzlehttp/psr7": "^1.7 || ^2.0"
     },
     "scripts": {
-        "test": "./vendor/bin/pest --colors=always",
-        "pint": "./vendor/laravel/pint/builds/pint"
+        "test": "pest --colors=always",
+        "lint": [
+            "pint --parallel"
+        ],
+        "test:lint": [
+            "pint --parallel --test"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
